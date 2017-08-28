@@ -24,7 +24,11 @@
               return barHeight + "px";
             });
 
-            var svg = d3.select("body").append("svg");
+            var svg = d3.select("body")
+                        .append("svg");
+                        .attr("width", 500)
+                        .attr("height", 500);
+
 
         </script>
         <svg width="500" height="500">
