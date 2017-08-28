@@ -57,7 +57,9 @@
            .attr("font-size", "11px")
            .attr("fill", "white")
            .attr("text-anchor", "middle")
-           ;
+           .attr("x", function(d, i) {
+                return i * (w / dataset.length) + (w / dataset.length - barPadding) / 2;
+            });
         </script>
     </body>
 </html>
