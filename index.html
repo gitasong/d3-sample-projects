@@ -8,6 +8,9 @@
     </head>
     <body>
         <script type="text/javascript">
+          var w = 500;
+          var h = 500;
+
           var dataset = [];
           for (var i = 0; i < 25; i++) {
             var newNumber = Math.round(Math.random() * 30);
@@ -26,8 +29,8 @@
 
             var svg = d3.select("body")
                         .append("svg");
-                        .attr("width", 500)
-                        .attr("height", 500);
+                        .attr("width", w)
+                        .attr("height", h);
 
 
         </script>
