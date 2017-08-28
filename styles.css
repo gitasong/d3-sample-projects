@@ -11,3 +11,8 @@ div.bar {
   stroke: orange;
   stroke-width: 5;
 }
+
+/*for svg-specific properties, use this notation:
+svg .pumpkin {*/
+  /* ... */
+/*}*/
